@@ -79,6 +79,8 @@ export default function Board() {
         <Square />
         <Square />
       </div>
+
+      <p>Click on the boxes to fill them with an O.</p>
     </>
   )
 }
