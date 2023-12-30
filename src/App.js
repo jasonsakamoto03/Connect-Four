@@ -44,7 +44,7 @@ export default function Board() {
   if (winner) {
     status = "Winner: " + winner;
   } else {
-    status = (xIsNext ? "X" : "O") + "'s turn";
+    status = (xIsNext ? "X" : "O") + "'s turn. Please select a valid column.";
   }
 
   return (
